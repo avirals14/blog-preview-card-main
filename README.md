@@ -37,7 +37,7 @@ Here is a screenshot of my completed project:
 ### Links
 
 - **Solution URL:** [View the code on GitHub](https://github.com/avirals14/blog-preview-card-main)
-- **Live Site URL:** [View Live Site](#) *(Add your live site URL here)*
+- **Live Site URL:** [View Live Site](#) *(https://avirals14.github.io/blog-preview-card-main/)*
 
 ---
 
