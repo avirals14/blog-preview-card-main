@@ -19,11 +19,9 @@ body{
     border-right: 0.5em solid;
     width: 20%;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 8%;
     background: hsl(0, 0%, 100%);
     font-weight: 500;
-    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 1); */
-    
 }
 
 .desc{
@@ -35,6 +33,19 @@ body{
     font-size: 22px;
 }
 
+.title-link{
+    color: black;
+    text-decoration: none;
+}
+
+.title-link:hover{
+    color:hsl(47, 88%, 63%);
+}
+
+.title-link:active{
+    color: blueviolet;
+}
+
 .attribution{
     margin-top: 1%;
 }
@@ -42,6 +53,7 @@ body{
 .learn{
     background-color: hsl(47, 88%, 63%);
     width: max-content;
+    height: auto;
     padding: 0.6rem;
     font-size: large;
     border-radius: 0.3rem;
@@ -51,3 +63,34 @@ body{
     align-items: center;
     
 }
+
+svg{
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.para{
+    width: 100%;
+    height: auto;
+}
+
+.author {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically align items */
+    gap: 10px; /* Space between the image and the text */
+  }
+  
+  .avatar {
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image is scaled properly */
+  }
+  
+  .author-name {
+    font-size: 16px; /* Adjust font size */
+    color: #333; /* Text color */
+    font-weight: bold; /* Make the name stand out */
+  }
+  
